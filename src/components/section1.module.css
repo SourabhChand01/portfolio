@@ -1,0 +1,90 @@
+.subsection1{
+    height:100vh;
+    width:100vw;
+    /* background-color: rgb(188, 93, 93); */
+}
+.subsection2{
+    height: 100vh;
+    width:100vw;
+    /* background-color: rgb(108, 173, 108); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ilike{
+    font-weight: 700;
+    text-align: center;
+}
+.likebox{
+    height:60%;
+    width:100%;
+    display: flex;
+    background-color: #fff;
+    display: flex;
+    justify-content: center ;
+    padding: 0;
+    
+}
+.hobbies{
+    height:70%;
+    width:25%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin: 10px 40px 0 0 ;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.image{
+    height:40%;
+    width:30%;
+    /* background-color: green; */
+    border-radius: 60%;
+}
+.image img{
+    height:90%;
+    width:100%;
+    object-fit: contain;
+}
+.hobbies p{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.aboutdiv{
+    height:50vh;
+    width:100vw;
+    /* background-color: purple; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3%;
+    
+}
+.Aboutme{
+    height:50vh;
+    width:70%;
+    background-color: #918c8c;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.Aboutme h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin:5px;
+    padding: 0;
+    font-weight: 800;
+    
+}
